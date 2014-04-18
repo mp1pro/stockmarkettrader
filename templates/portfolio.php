@@ -1,6 +1,33 @@
-<div>
-    <img alt="Under Construction" src="/img/construction.gif"/>
-</div>
-<div>
-    <a href="logout.php">Log Out</a>
-</div>
+<table class="table table-striped">
+
+    <thead>
+        <tr>
+            <th>Symbol</th>
+            <th>Name</th>
+            <th>Shares</th>
+            <th>Price</th>
+            <th>TOTAL</th>
+        </tr>
+    </thead>
+    <tbody>
+
+    <?php foreach($positions as $position): ?>
+    <tr>
+        <td ><?= $position["symbol"] ?></td>
+        <td ><?= $position["name"] ?></td>
+        <td ><?= $position["shares"] ?></td>
+        <td ><?= $position["price"] ?></td>
+        <td ><?= $position["total"] ?></td>
+    </tr>
+    <? endforeach ?>
+    <tr class="colorgreen">
+        <td>Balance</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td><?= $balance ?></td>
+    </tr>
+
+    </tbody>
+
+</table>

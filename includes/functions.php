@@ -204,6 +204,13 @@
 
             // render header
             require("../templates/header.php");
+            
+             
+            if (isset($_SESSION["id"]))
+            {
+                require("../templates/menu.php");
+            }
+            
 
             // render template
             require("../templates/$template");
@@ -218,5 +225,26 @@
             trigger_error("Invalid template: $template", E_USER_ERROR);
         }
     }
-
+    
+    //cash update function
+    function updateCash(){
+    
+    $rows = query("SELECT cash FROM users WHERE id = ?", $_SESSION["id"]);
+    
+        if (count($rows) == 1)
+            {
+                $cash = $rows[0]["cash"];
+                $_SESSION["cash"]=$cash;
+                
+            }
+            else
+            {
+                apologize("balance update failed");
+            }
+                        
+    }
+    function addHistory($action,$symbol,$shares,$price){
+    $query = query("INSERT INTO history(id, action, symbol, shares, price, date) VALUES (?, ?, ?, ?, ?, Now())"
+                ,$_SESSION["id"], $action, $symbol, $shares, $price);
+    }
 ?>
