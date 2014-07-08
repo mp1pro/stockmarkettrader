@@ -4,7 +4,7 @@
 
     <head>
 
-        <link href="/css/bootstrap.min.css" rel="stylesheet"/>
+        <link href="../public/css/bootstrap.min.css" rel="stylesheet"/>
         <link href="/css/bootstrap-theme.min.css" rel="stylesheet"/>
         <link href="/css/styles.css" rel="stylesheet"/>
 
@@ -25,7 +25,7 @@
         <div class="container">
 
             <div id="top">
-                <a href="/"><img alt="C$50 Finance" src="/img/logo.gif"/></a>
+                <a href="/"><img alt="StockTrader" src="/img/stocktrader.png"/></a>
             </div>
 
             <div id="middle">
