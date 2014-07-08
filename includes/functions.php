@@ -26,7 +26,7 @@
      */
     function dump($variable)
     {
-        require("../templates/dump.php");
+        require("templates/dump.php");
         exit;
     }
 
