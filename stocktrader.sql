@@ -1,6 +1,6 @@
 -- MySQL dump 10.14  Distrib 5.5.32-MariaDB, for Linux (i686)
 --
--- Host: localhost    Database: pset7
+-- Host: localhost    Database: stocktrader
 -- ------------------------------------------------------
 -- Server version	5.5.32-MariaDB
 
