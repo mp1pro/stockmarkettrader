@@ -1,34 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7c4652c9-9456-4e05-9eaf-0036c31a73fa" name="Default" comment="">
-      <change type="DELETED" beforePath="C:\xampp\htdocs\stockmarkettrader\public\buy.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\stockmarkettrader\public\css\bootstrap-theme.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\stockmarkettrader\public\css\bootstrap-theme.min.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\stockmarkettrader\public\css\bootstrap.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\stockmarkettrader\public\css\bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\stockmarkettrader\public\css\styles.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\stockmarkettrader\public\deposit.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\stockmarkettrader\public\fonts\glyphicons-halflings-regular.eot" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\stockmarkettrader\public\fonts\glyphicons-halflings-regular.svg" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\stockmarkettrader\public\fonts\glyphicons-halflings-regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\stockmarkettrader\public\fonts\glyphicons-halflings-regular.woff" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\stockmarkettrader\public\history.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\stockmarkettrader\public\img\construction.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\stockmarkettrader\public\img\logo.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\stockmarkettrader\public\img\stocktrader.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\stockmarkettrader\public\js\bootstrap.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\stockmarkettrader\public\js\bootstrap.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\stockmarkettrader\public\js\jquery-1.10.2.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\stockmarkettrader\public\js\jquery-1.10.2.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\stockmarkettrader\public\js\jquery-1.10.2.min.map" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\stockmarkettrader\public\js\scripts.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\stockmarkettrader\public\login.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\stockmarkettrader\public\logout.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\stockmarkettrader\public\quote.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\stockmarkettrader\public\register.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\stockmarkettrader\public\sell.php" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/functions.php" afterPath="$PROJECT_DIR$/includes/functions.php" />
+    <list default="true" id="7c4652c9-9456-4e05-9eaf-0036c31a73fa" name="Default" comment="Separate Controllers">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/deployment.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="stockmarkettrader.iws" />
@@ -64,7 +38,7 @@
       <file leaf-file-name="functions.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/includes/functions.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="0" selection-start="131" selection-end="131" vertical-scroll-proportion="0.09497207" vertical-offset="0" max-vertical-offset="4233">
+            <state line="19" column="13" selection-start="332" selection-end="332" vertical-scroll-proportion="0.5964912" vertical-offset="0" max-vertical-offset="4233">
               <folding>
                 <marker date="1404821407722" expanded="true" signature="5844:5879" placeholder="SELECT cash ..users..." />
                 <marker date="1404821407722" expanded="true" signature="6269:6359" placeholder="INSERT INTO ..." />
@@ -256,31 +230,35 @@
       <created>1404819751981</created>
       <updated>1404819751981</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Separate Controllers">
+      <created>1404822161523</created>
+      <updated>1404822161523</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1378" height="744" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32879046" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2689394" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2689394" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32879046" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -299,7 +277,8 @@
       <TodoPanelSettings />
     </option>
     <MESSAGE value="3rd Push" />
-    <option name="LAST_COMMIT_MESSAGE" value="3rd Push" />
+    <MESSAGE value="Separate Controllers" />
+    <option name="LAST_COMMIT_MESSAGE" value="Separate Controllers" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -506,7 +485,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/includes/functions.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="0" selection-start="131" selection-end="131" vertical-scroll-proportion="0.09497207" vertical-offset="0" max-vertical-offset="4233">
+        <state line="19" column="13" selection-start="332" selection-end="332" vertical-scroll-proportion="0.5964912" vertical-offset="0" max-vertical-offset="4233">
           <folding>
             <marker date="1404821407722" expanded="true" signature="5844:5879" placeholder="SELECT cash ..users..." />
             <marker date="1404821407722" expanded="true" signature="6269:6359" placeholder="INSERT INTO ..." />
