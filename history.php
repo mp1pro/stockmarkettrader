@@ -1,6 +1,6 @@
 <?php
     // configuration
-    require("../includes/config.php");
+    require("includes/config.php");
     
     // Query current users shares
     $rows = query("SELECT action, symbol, shares, price, date FROM history
