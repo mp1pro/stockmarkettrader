@@ -27,4 +27,4 @@
         // else render form
         render("quote_form.php", ["title" => "Quote"]);
     }
-?>
+

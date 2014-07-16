@@ -44,4 +44,4 @@
         //else render form
         render("register_form.php", ["title"=>"Register"]);
     }
-?>
+

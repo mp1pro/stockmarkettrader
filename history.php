@@ -15,4 +15,4 @@
     // render history
     render("history_result.php", ["title" => "History", "records" => $rows]);
     }
-?>
+

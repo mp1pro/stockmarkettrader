@@ -247,4 +247,4 @@
     $query = query("INSERT INTO history(id, action, symbol, shares, price, date) VALUES (?, ?, ?, ?, ?, Now())"
                 ,$_SESSION["id"], $action, $symbol, $shares, $price);
     }
-?>
+

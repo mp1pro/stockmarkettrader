@@ -1,8 +1,9 @@
- <?php
-    require("includes/config.php");
-    
-    
-    
+<?php
+
+// configuration
+require("includes/config.php");
+
+
 if ($_SERVER["REQUEST_METHOD"] == "POST")
 {
         if (!empty($_POST["symbol"]))
@@ -58,4 +59,4 @@ else
     $rows = query("SELECT symbol FROM portfolio WHERE id = ?", $_SESSION["id"]);
     render("sell_form.php", ["title" => "Sell", "symbols" => $rows]);
 }
- ?>
+

@@ -35,4 +35,4 @@
     // render portfolio
     render("portfolio.php", ["title" => "Portfolio", "positions" => $positions, "balance" => $_SESSION["cash"]]);
 
-?>
+

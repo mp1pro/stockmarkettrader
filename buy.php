@@ -69,4 +69,4 @@
         // else render form
         render("buy_form.php", ["title" => "Buy"]);
     }
-?>
+

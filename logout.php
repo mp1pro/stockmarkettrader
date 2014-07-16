@@ -9,4 +9,4 @@
     // redirect user
     redirect("/");
 
-?>
+
