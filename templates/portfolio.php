@@ -19,6 +19,7 @@
         <td ><?= $position["price"] ?></td>
         <td ><?= $position["total"] ?></td>
     </tr>
+
     <? endforeach ?>
     <tr class="colorgreen">
         <td>Balance</td>
