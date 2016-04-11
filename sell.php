@@ -1,8 +1,6 @@
 <?php
-
 // configuration
 require("includes/config.php");
-
 
 if ($_SERVER["REQUEST_METHOD"] == "POST")
 {
@@ -50,8 +48,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST")
                 {
                     apologize("Shares was not found.");
                 }
-                
-                
             }
 }
 else
