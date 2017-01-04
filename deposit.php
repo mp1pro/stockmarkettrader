@@ -17,19 +17,15 @@
                 
                 redirect("/");
             }
-            else
-            {
+            else{
                 apologize("enter only numbers");
             }
         }
-        else
-        {
+        else{
             apologize("enter a deposit amount");
         }
     }
-    else
-    {
-     
-    render("deposit_form.php", ["title" => "Deposit"]);
+    else{
+        render("deposit_form.php", ["title" => "Deposit"]);
     }
 
