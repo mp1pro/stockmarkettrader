@@ -6,8 +6,7 @@
     $rows = query("SELECT action, symbol, shares, price, date FROM history
         WHERE id = ? order by date desc", $_SESSION["id"]);
     
-    if (count($rows) <1)
-    {
+    if (count($rows) <1){
         apologize("No recorded transactions for this user exist.");
     }
     else{
