@@ -10,12 +10,12 @@
     //declare array
     $positions = [];
     
-    foreach($rows as $row)
-    {
+    foreach($rows as $row){
+        
         $stock = lookup($row["symbol"]);
         
-        if ($stock !== false)
-        {
+        if ($stock !== false){
+            
             $positions[] = [
             
                 "symbol"    => $row["symbol"]
