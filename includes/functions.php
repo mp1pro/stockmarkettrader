@@ -34,6 +34,7 @@
      * Logs out current user, if any.  Based on Example #1 at
      * http://us.php.net/manual/en/function.session-destroy.php.
      */
+
     function logout()
     {
         // unset any session variables
@@ -52,6 +53,7 @@
     /**
      * Returns a stock by symbol (case-insensitively) else false if not found.
      */
+
     function lookup($symbol)
     {
         // reject symbols that start with ^
@@ -103,6 +105,7 @@
      * Executes SQL statement, possibly with parameters, returning
      * an array of all rows in result set or false on (non-fatal) error.
      */
+
     function query(/* $sql [, ... ] */)
     {
         // SQL statement
@@ -161,6 +164,7 @@
      * Because this function outputs an HTTP header, it
      * must be called before caller outputs any HTML.
      */
+
     function redirect($destination)
     {
         // handle URL
@@ -243,6 +247,7 @@
             }
                         
     }
+
     function addHistory($action,$symbol,$shares,$price){
     $query = query("INSERT INTO history(id, action, symbol, shares, price, date) VALUES (?, ?, ?, ?, ?, Now())"
                 ,$_SESSION["id"], $action, $symbol, $shares, $price);
